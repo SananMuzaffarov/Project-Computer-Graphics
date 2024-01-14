@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Computer Graphics - WebGL Final Project</title>
+</head>
+
+<body onload="InitDemo();">
+	<canvas id="canvas">
+		Your browser does not support HTML5
+	</canvas>
+	<br/>
+	<input type="color" id="changeSphereColor" oninput="changeColor(this);" value="#999999"> Change Sphere Color
+	<input type="color" id="changeDragonColor" oninput="changeColor(this);" value="#999999"> Change Dragon Color
+	<input type="range" name="" id="" min="-10" max="10" oninput="moveDragon(this);"> Change Dragon Position
+
+	<script src="helper.js"></script>
+	<script src="gl-matrix.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
